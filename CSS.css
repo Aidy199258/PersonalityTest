@@ -1,0 +1,209 @@
+.error {
+    color: #FF0000;
+    font-family: "Times New Roman",serif;
+    position: center;
+    alignment: center;
+}
+.align{
+    position: relative;
+    left: 40%;
+}
+hr {
+    width:40%;
+    position: relative;
+    left: 0%;
+    alignment: left;
+    margin:0;
+}
+.welcomeText{
+    position: relative; left: 10%; top: 2%;right: 10%;
+    font-weight: bold;
+    font-family: "Roboto", "Lucida Handwriting", "Brush Script MT", Cursive, serif;
+    font-size: 120%;
+    line-height: 45px;
+    color: black;
+    width: 40%;
+    display: inline-block;
+}
+.button{
+    position: center;
+    font-family: Verdana, Helvetica, Arial, Sans-serif, serif;
+    background-blend-mode: color;
+    Font-size: 15px;
+    Line-height: 18px;
+    Vertical-align: Top;
+    align: center;
+    background-color: #da7f59;
+    color: white;
+    border-radius: 5px;
+
+
+}
+.buttonStart{
+
+    position: relative; left: 22%; bottom: 20%;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 140%;
+    width: 10%;
+    border-radius: 15%;
+    background-color: #e06161;
+    color: white;
+}
+.buttonRestart{
+
+    position: relative; left: 42%; bottom: 20%;
+    font-family: Verdana, Helvetica, Arial, Sans-serif, serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 140%;
+    width: 16%;
+    border-radius: 15%;
+    background-color: #e06161;
+    color: white;
+}
+
+.startImage{
+
+    position: relative;
+    Left: 50%;
+	top:10%;
+	Right: 10%;
+	width: 55%;
+
+    /*
+    float:right;
+    display: inline-block;
+    */
+
+}
+.resultImage{
+    position: relative;
+    left: 34%;
+    width: 60%;
+    display: inline-block;
+
+}
+
+.PageContent{
+    box-sizing: content-box;
+    border: 20px solid dimgrey;
+    border-radius: 12%;
+    padding: 4%;
+    background-color: #b7b7b7;
+
+
+}
+.QuestionPage{
+    background: url("Images/background.png") center no-repeat;
+    background-size: cover ;
+    display: block;
+    height:100%;
+    width:100%;
+    alignment: center;
+    margin: 2%;
+    padding: 2%;
+    overflow-x: hidden;
+    border-radius: 15%;
+    border: 20px solid dimgrey;
+
+}
+.DefaultBackground{
+    /*background-image: url("Images/background.png")
+    background: url("Images/background.png")  #b7b7b7;
+    left: 0%;
+    right: 0%;
+    alignment: center;
+    background-size: auto;
+     */
+    margin: 0;
+    height:100%;
+    width:100%;
+    padding:0;
+    alignment: center;
+    background-color: #b7b7b7;
+
+}
+
+.questions{
+    font-family: "Roboto", "Lucida Handwriting", "Brush Script MT", Cursive, serif;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 120%;
+    position: relative;
+    left: 30%;
+    
+}
+.header{
+    text-align: center;
+    font-family: Arial, Helvetica, Sans-serif, serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    padding: 1%;
+
+
+}
+
+
+.TextBox{
+    border: 1px solid #241726;
+    box-sizing: border-box;
+    border-radius: 5px;
+    position: relative;
+    width: 40%;
+    height: 20%;
+    background: #FFFFFF;
+}
+
+.options{
+    position: relative;
+    width: 26%;
+    height: 30px;
+    box-sizing: border-box;
+    border-color: grey transparent transparent transparent;
+    background-color: lightskyblue;
+    background-image: linear-gradient(to top right, #458ebb, #97d0e5);
+    color: black;
+    font-family: Cursive, serif;
+
+
+}
+.traits{
+
+    text-align: center;
+    width: fit-content;
+    font-size: large;
+    font-weight: bold;
+    padding: 1em;
+    text-shadow: -2px 2px #ec8763, 0 2px #c28660, 2px 0 #a14c39, 0 -2px #c05129;
+    color: wheat;
+    border-radius: 50%;
+    display: inline-flex;
+    float:left;
+    border: 0.2em solid lightslategrey;
+    animation-name: RainbowFrame;
+    animation-duration: 6s;
+    background-color: rgba(123, 184, 245, 0.5);
+}
+@keyframes RainbowFrame {
+    0% {border-color: #99c947;}
+    20% {border-color: #fab269;}
+    40% {border-color: #c1c762;}
+    60% {border-color: #aafc7b;}
+    80% {border-color: #97e6f8;}
+    100% {border-color: #6593d9;}
+}
+.statements{
+    text-align: center;
+    font-family: "Lucida Handwriting", "Brush Script MT", Cursive, serif;
+    font-weight: bold;
+    color: darkolivegreen;
+    display: grid;
+    padding: 0.5em;
+    line-height: 2;
+
+
+}
