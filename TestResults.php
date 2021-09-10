@@ -24,11 +24,14 @@ echo "<br>";
 //Display analysis for traits
 include "TraitsAnalysis.php";
 
-echo "<br>";
-echo "<br>";
-echo "<br>";
-echo "<br>";
-echo "<br>";
+echo "<br/>";
+echo "<br/>";
+echo "<br/>";
+echo "<br/>";
+echo "<br/>";
+echo "<br/>";
+echo "<br/>";
+echo "<br/>";
 //Display analysis for detailed personality
 include "PersonalityAnalysis.php";
 

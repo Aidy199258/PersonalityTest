@@ -11,7 +11,8 @@
 hr {
     width:40%;
     position: relative;
-    left: 0%;
+    left: 0;
+    right: 0;
     alignment: left;
     margin:0;
 }
@@ -32,7 +33,7 @@ hr {
     Font-size: 15px;
     Line-height: 18px;
     Vertical-align: Top;
-    align: center;
+    alignment: center;
     background-color: #da7f59;
     color: white;
     border-radius: 5px;
@@ -68,11 +69,12 @@ hr {
 .startImage{
 
     position: relative;
-    Left: 50%;
+    Left: 15%;
 	top:10%;
 	Right: 10%;
 	width: 55%;
-
+    float:right;
+    display: inline-block;
     /*
     float:right;
     display: inline-block;
@@ -118,10 +120,13 @@ hr {
     alignment: center;
     background-size: auto;
      */
+    left: 0;
+    right: 0;
     margin: 0;
     height:100%;
     width:100%;
     padding:0;
+    position: relative;
     alignment: center;
     background-color: #b7b7b7;
 
@@ -134,7 +139,7 @@ hr {
     line-height: 120%;
     position: relative;
     left: 30%;
-    
+
 }
 .header{
     text-align: center;
@@ -178,8 +183,8 @@ hr {
     font-size: large;
     font-weight: bold;
     padding: 1em;
-    text-shadow: -2px 2px #ec8763, 0 2px #c28660, 2px 0 #a14c39, 0 -2px #c05129;
-    color: wheat;
+    text-shadow: 2px -2px #efbcac;
+    color: #da6713;
     border-radius: 50%;
     display: inline-flex;
     float:left;
